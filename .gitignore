@@ -338,3 +338,7 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/02 FacetedBesignPattern
+/03 FactoryDesignPattern
+/04 SingletonDesignPattern
+/05 AdapterDesignPattern
