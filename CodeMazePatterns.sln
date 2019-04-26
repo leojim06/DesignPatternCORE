@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 FacetedDesignPattern", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 FactoryDesignPattern", "03 FactoryDesignPattern\03 FactoryDesignPattern.csproj", "{482BD8F7-A330-4CFA-BAD7-776809F66D49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 SingletonDesignPattern", "04 SingletonDesignPattern\04 SingletonDesignPattern.csproj", "{BD37DD93-8C3C-441C-ACDA-08EC9FDB7DFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 SingletonDesignPattern", "04 SingletonDesignPattern\04 SingletonDesignPattern.csproj", "{BD37DD93-8C3C-441C-ACDA-08EC9FDB7DFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 AdapterDesignPattern", "05 AdapterDesignPattern\05 AdapterDesignPattern.csproj", "{78A23F63-2D73-485C-A1C6-2DFD4720D4B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 AdapterDesignPattern", "05 AdapterDesignPattern\05 AdapterDesignPattern.csproj", "{78A23F63-2D73-485C-A1C6-2DFD4720D4B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 CompositeDesignPattern", "06 CompositeDesignPattern\06 CompositeDesignPattern.csproj", "{E14B19ED-45D1-43B5-B6E2-4508EACD5AB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{78A23F63-2D73-485C-A1C6-2DFD4720D4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78A23F63-2D73-485C-A1C6-2DFD4720D4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78A23F63-2D73-485C-A1C6-2DFD4720D4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E14B19ED-45D1-43B5-B6E2-4508EACD5AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14B19ED-45D1-43B5-B6E2-4508EACD5AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14B19ED-45D1-43B5-B6E2-4508EACD5AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14B19ED-45D1-43B5-B6E2-4508EACD5AB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
