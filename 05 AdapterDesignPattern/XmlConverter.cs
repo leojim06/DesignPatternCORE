@@ -9,7 +9,7 @@ namespace _05_AdapterDesignPattern
         public XDocument GetXML()
         {
             var xDocument = new XDocument();
-            var xElement = new XElement("Manufaturers");
+            var xElement = new XElement("Manufacturers");
             var xAttributes = ManufacturerDataProvider.GetData()
                 .Select(m => new XElement("Manufacturer",
                     new XAttribute("City", m.City),

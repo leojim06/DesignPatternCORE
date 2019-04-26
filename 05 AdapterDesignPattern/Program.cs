@@ -6,8 +6,9 @@ namespace _05_AdapterDesignPattern
     {
         static void Main(string[] args)
         {
-            var document = new XmlConverter();
-            document.GetXML();
+            var xmlConverter = new XmlConverter();
+            var adapter = new XmlToJsonAdapter(xmlConverter);
+            adapter.ConvertXmlToJson();
         }
     }
 }
